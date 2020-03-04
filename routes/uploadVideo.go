@@ -2,11 +2,11 @@ package routes
 
 import (
 	"fmt"
-	"gowiki/constants"
-	"gowiki/utils"
 	"io"
 	"net/http"
 	"os"
+	"video-server/constants"
+	"video-server/utils"
 )
 
 //UploadFileHandler route that receives video upload and save

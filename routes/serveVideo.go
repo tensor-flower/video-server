@@ -1,12 +1,12 @@
 package routes
 
 import (
-	"gowiki/constants"
 	"log"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+	"video-server/constants"
 )
 
 //ServeVideo route that serves a video

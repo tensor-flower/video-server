@@ -3,12 +3,12 @@ package routes
 import (
 	"encoding/json"
 	"fmt"
-	"gowiki/constants"
-	"gowiki/utils"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"strings"
+	"video-server/constants"
+	"video-server/utils"
 )
 
 //BaseHandler route lists all existing videos

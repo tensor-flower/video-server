@@ -1,8 +1,8 @@
 package main
 
 import (
-	"gowiki/routes"
 	"net/http"
+	"video-server/routes"
 )
 
 func main() {
