@@ -10,5 +10,5 @@ func main() {
 	http.HandleFunc("/videos/", routes.ServeVideo)
 	http.HandleFunc("/upload", routes.UploadFileHandler)
 	http.HandleFunc("/", routes.BaseHandler)
-	http.ListenAndServe(os.Getenv("PORT"), nil)
+	http.ListenAndServe(":"+os.Getenv("PORT"), nil)
 }
